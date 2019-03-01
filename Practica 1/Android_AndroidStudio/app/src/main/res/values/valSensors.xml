@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valSnr">
+        <item>Fecha</item>
+        <item>nivel CO2</item>
+        <item>nivel CO</item>
+        <item>nivel UV</item>
+    </string-array>
+</resources>
