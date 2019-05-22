@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfDucha">
+
+    <Button
+        android:id="@+id/btnBluetooth"
+        android:layout_width="212dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:text="Configurar Bluetooth" />
+
+    <TextView
+        android:id="@+id/txtTiempoPromedio"
+        android:layout_width="135dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_toStartOf="@+id/editMinutos"
+        android:layout_toLeftOf="@+id/editMinutos"
+        android:text="Tiempo Ducha \n (En Segundos)"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editMinutos"
+        android:layout_width="96dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="10" />
+
+    <Button
+        android:id="@+id/btnConfigurar"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:text="Configurar" />
+
+    <Button
+        android:id="@+id/btnTmp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginRight="89dp"
+        android:text="Regresar" />
+</RelativeLayout>
